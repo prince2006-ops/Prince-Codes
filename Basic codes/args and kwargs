@@ -1,4 +1,5 @@
-#using args in python
+   #using args in python in the function
+
 def add(*args):
     sum=0
     for i in args:
