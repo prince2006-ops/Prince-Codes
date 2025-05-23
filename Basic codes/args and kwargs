@@ -1,0 +1,9 @@
+#using args in python
+def add(*args):
+    sum=0
+    for i in args:
+        sum +=i
+    print (f"The sum is {sum}")
+
+add(4,5,6,7,8)
+add(1,2,3)
