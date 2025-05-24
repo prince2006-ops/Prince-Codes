@@ -1,0 +1,7 @@
+#LUDO game in python (basic)
+
+import random
+print("*****🎮This is the ludo game🎮*****")
+print("----------------------------")
+dice=random.randint(1,6)
+print(f"Your dice number is {dice}")
