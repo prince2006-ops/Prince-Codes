@@ -1,0 +1,18 @@
+               #LUDO game in python (basic)
+import random
+print("*****🎮This is the ludo game🎮*****")
+print("----------------------------")
+dice=random.randint(1,6)
+print(f"Your dice number is {dice}")
+
+               #Head or Tail
+import random
+print("It's a head or tail game.")
+user_input=input("Enter your decision:").strip().capitalize()
+options=['Head','Tail']
+side=random.choice(options)
+print(f"The side was {side}")
+if side==user_input:
+    print("Your guess is correct!🎉")
+else:
+    print("Your guess is invalid 😥 Try Again!")
